@@ -1,0 +1,419 @@
+body {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 1rem;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: rgb(128, 128, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+}
+
+.stt:hover {
+    opacity: 0.8;
+}
+
+.stt:focus {
+    opacity: 0.9;
+}
+
+.stt:active {
+    opacity: 1;
+}
+
+.top-container {
+    background-image: url(./Capstone_project_images/bgimages.jpg);
+    position: relative;
+    padding-top: 100px;
+}
+
+.programmer-1 {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+h1 {
+    color: #ef0551;
+    font-size: 5.5rem;
+    margin: 50px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #1d54d1;
+    font-family: cursive;
+}
+
+.pro {
+    color: #ff131e;
+    text-decoration: line-through;
+}
+
+.junior {
+    text-decoration: underline;
+}
+
+.programmer-2 {
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    width: 150px;
+    height: 100px;
+    border-radius: 25px
+}
+
+.my-photo {
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.mqn5 {
+    display: inline;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h2 {
+    color: #66bfbf;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+
+hr {
+    border: #66bfbf dotted 6px;
+    border-bottom: none;
+    width: 30px;
+    margin: 100px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    column-gap: 20px;
+    row-gap: 1rem;
+    border: #ef0551 20px;
+    border-left-style: groove;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
+}
+
+.mqn6 {
+    display: inline;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.discription_01 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: #11999e;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.qualification {
+    margin-inline: 32%;
+}
+
+ul {
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h4 {
+    color: #11999e;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+}
+
+.btn_1 {
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #337fc9, #2057a6);
+    color: #ebef05;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: medium;
+    transition-duration: 0.04s;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-me {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: #11999e;
+    padding: 50px 0 30px;
+}
+
+.bi:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.svg_edit {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #ebef05;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+
+    .top-container {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .mqn1 {
+        display: block;
+        top: 20px;
+        right: 100px;
+        width: 100px;
+        height: 60px;
+        border-radius: 25px;
+    }
+
+    .mqn2 {
+        display: block;
+        color: #1d54d1;
+        font-size: 35px;
+        font-family: cursive;
+    }
+
+    .mqn3 {
+        display: block;
+        top: 30px;
+        left: 50px;
+        width: 125px;
+        height: 70px;
+        border-radius: 25px;
+    }
+
+
+    .mqn4 {
+        display: block;
+        margin: 40px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 40%;
+    }
+
+    .mqn5 {
+        display: inline;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+
+    .images {
+        width: 160px;
+        height: 160px;
+    }
+
+    .mqn6 {
+        display: contents;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    hr {
+        border: #66bfbf dotted 8px;
+        border-bottom: none;
+        width: 25px;
+        margin: 80px auto;
+    }
+
+    .mqn7 {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-family: monospace;
+        color: #1d54d1;
+    }
+
+    .h4 {
+        color: #11999e;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 45px;
+    }
+
+    .btn_1 {
+        border: none;
+        border-radius: 8px;
+        background-image: linear-gradient(to right, #1d54d1, #11999e, #ef0551);
+        color: #ebef05;
+        text-align: center;
+        text-decoration: solid;
+        display: inline-block;
+        font-size: larger;
+        transition-duration: 0.04s;
+        cursor: pointer;
+        padding: 10px 20px 10px 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #contact-me {
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        margin-bottom: 50px;
+    }
+
+    .bottom-container {
+        display: block;
+        background-color: #11999e;
+        padding: 40px 0 25px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+    .top-container {
+        display: block;
+        padding-bottom: 25px;
+    }
+
+    .mqn3 {
+        display: block;
+        top: 30px;
+        left: 50px;
+        width: 125px;
+        height: 70px;
+        border-radius: 25px;
+    }
+
+    .mqn4 {
+        display: block;
+        margin: 45px auto;
+        width: 175px;
+        height: 175px;
+        border-radius: 40%;
+    }
+
+    .mqn5 {
+        display: inline;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+
+    .images {
+        width: 180px;
+        height: 180px;
+    }
+
+    .mqn6 {
+        display: contents;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    hr {
+        border: #66bfbf dotted 8px;
+        border-bottom: none;
+        width: 20px;
+        margin: 70px auto;
+    }
+
+    .mqn7 {
+        font-size: 1.8rem;
+        font-weight: bolder;
+        font-family: monospace;
+        color: #1d54d1;
+    }
+
+    .h4 {
+        color: #11999e;
+        font-weight: bolder;
+        font-size: 1.8rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 40px;
+    }
+
+    #contact-me {
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8rem;
+        margin-bottom: 50px;
+    }
+
+    .btn_1 {
+        border: none;
+        border-radius: 8px;
+        background-image: linear-gradient(to right, #1d54d1, #11999e, #ef0551);
+        color: #ebef05;
+        text-align: center;
+        text-decoration: solid;
+        display: inline-block;
+        font-size: larger;
+        transition-duration: 0.04s;
+        cursor: pointer;
+        padding: 10px 20px 10px 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .bottom-container {
+        display: block;
+        background-color: #11999e;
+        padding: 35px 0 20px;
+    }
+}
